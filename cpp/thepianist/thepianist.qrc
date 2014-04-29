@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>keys.png</file>
+    </qresource>
+    <qresource prefix="/composers">
+        <file alias="grieg.jpg">data/grieg.jpg</file>
+        <file alias="bach.jpg">data/bach.jpg</file>
+    </qresource>
+</RCC>
