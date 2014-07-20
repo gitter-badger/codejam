@@ -2,7 +2,7 @@
 #define MAP_LOADER
 
 #include <string>
-#include <vector>
+#include "level.h"
 
 using namespace std;
 
@@ -11,7 +11,10 @@ class Object3D;
 class MapLoader
 {
 public:
-    static vector<Object3D *> loadMap(const string & filename);
+    static Level * loadMap(const string & filename);
+
+private:
+    static int extractBits(int value, int from, int to);
 };
 
 #endif

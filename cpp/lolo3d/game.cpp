@@ -33,7 +33,7 @@ void Game::run()
 
                 if (sym == SDLK_w) {
                     wireframe = !wireframe;
-                    glPolygonMode(GL_FRONT_AND_BACK, wireframe ? GL_LINE : GL_FILL);
+                    //glPolygonMode(GL_FRONT_AND_BACK, wireframe ? GL_LINE : GL_FILL);
                 }
                 if (sym == SDLK_q)
                     run = false;
